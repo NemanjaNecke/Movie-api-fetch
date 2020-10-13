@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>MovieInfoApp</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="text-center mt-5">Movie Info</h1>
+        <form id="movieForm" autocomplete="off" class="top-banner form">
+            <div class="form-group">
+                <label class="text-center" for="movie">Ime filma</label>
+                <input class="form-control" type="text" id="movie" placeholder="unesite ime filma">
+            </div>
+            <div class="form-group">
+                <button id="search" type="submit" class="btn btn-danger btn-block">
+                    Search
+                </button>
+            </div>
+        </form>
+        <div class="movies-searchable">
+            
+        </div>
+    </div>
+</body>
+<script src="movie.js"></script>
+
+</html>
